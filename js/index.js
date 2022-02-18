@@ -13,13 +13,16 @@ window.onload = setTitle;
 function settings() {
     window.open("settings.html", "_self");
 }
+function yt() {
+    window.open("https://www.youtube.com/channel/UCCOv_Ii_TcOMD_4dBT-44Bg");
+}
 
 window.setInterval(function() {
-    henlo[0].innerHTML = henlo[0].innerHTML+"Botkos ";
+    henlo[1].innerHTML = henlo[1].innerHTML+"Botkos ";
     if(count % 2 == 0) {
-        henlo[0].innerHTML = henlo[0].innerHTML+"Buzi; ";
+        henlo[1].innerHTML = henlo[1].innerHTML+"Buzi; ";
     }else{
-        henlo[0].innerHTML = henlo[0].innerHTML+"Buzzancs; "
+        henlo[1].innerHTML = henlo[1].innerHTML+"Buzzancs; "
     }
     count++;
 },2000);
